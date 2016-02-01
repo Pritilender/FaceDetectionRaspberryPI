@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( FacialRecognition )
+set(OpenCV_DIR /home/pi/opencv/build)
+find_package( OpenCV REQUIRED )
+add_executable( FaceRecog faceRec.cpp )
+target_link_libraries( FaceRecog ${OpenCV_LIBS} )

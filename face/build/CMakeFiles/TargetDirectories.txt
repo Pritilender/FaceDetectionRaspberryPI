@@ -1,0 +1,1 @@
+/home/pi/face/build/CMakeFiles/FaceRecog.dir
