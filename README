@@ -1,0 +1,8 @@
+- ukoliko raspberry nece biti konrktovan na internet, iskomentarisati linije koje se odnose an interfejs eth0 u fajlu "interfaces" koji se nalazi u folderu "/etc/network/"
+= za autoamtsko pokretanje programa raskomentarisati poslednju liniju fajla "profile" u folderu "/etc/"
+- sva potrebna dokumentacija se nalazi u fajlu "haar.cpp" u folderu "/home/pi/haar/"
+- primer kako treba da izgleda ceo projekat sa skriptama se nalazi u fodleru "/home/pi/haarSaSkriptama/"
+- "killScript.sh" se nalazi u home folderu root-a
+- ponasanje kamere je definisano u fajlu "capture.cpp" u folderu "/home/pi/Camera/"
+
+- kontakt mail: m.ilijic@elfak.rs

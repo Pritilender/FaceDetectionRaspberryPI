@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( HaarDetection )
+set(OpenCV_DIR /home/pi/opencv/build)
+find_package( OpenCV REQUIRED )
+find_package( Threads REQUIRED )
+add_executable( HaarDetect haar.cpp )
+list( APPEND CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS} -g -ftest-coverage -fprofile-arcs")
+target_link_libraries( HaarDetect ${OpenCV_LIBS} ${CMAKE_THREAD_LIBS_INIT} )
